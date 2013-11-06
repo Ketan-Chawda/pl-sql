@@ -1,0 +1,54 @@
+SQL> HELP SET
+
+ SET
+ ---
+
+ Sets a system variable to alter the SQL*Plus environment settings
+ for your current session, for example:
+     -   display width for NUMBER data
+     -   turn on HTML formatting
+     -   enabling or disabling printing of column headings
+     -   number of lines per page
+
+ SET system_variable value
+
+ where system_variable and value represent one of the following clauses:
+
+   APPI[NFO]{OFF|ON|text}                   NEWP[AGE] {1|n|NONE}
+   ARRAY[SIZE] {15|n}                       NULL text
+   AUTO[COMMIT] {OFF|ON|IMM[EDIATE]|n}      NUMF[ORMAT] format
+   AUTOP[RINT] {OFF|ON}                     NUM[WIDTH] {10|n}
+   AUTORECOVERY {ON|OFF}                    PAGES[IZE] {24|n}
+   AUTOT[RACE] {OFF|ON|TRACE[ONLY]}         PAU[SE] {OFF|ON|text}
+     [EXP[LAIN]] [STAT[ISTICS]]             RECSEP {WR[APPED] |
+   BLO[CKTERMINATOR] {.|c}                    EA[CH]|OFF}
+   CMDS[EP] {;|c|OFF|ON}                    RECSEPCHAR {_|c}
+   COLSEP  {_|text}                         SERVEROUT[PUT] {OFF|ON}
+   COM[PATIBILITY] {V7|V8|NATIVE}             [SIZE n] [FOR[MAT]
+   CON[CAT] {.|c|OFF|ON}                      {WRA[PPED] |
+   COPYC[OMMIT] {0|n}                         WOR[D_WRAPPED] |
+   COPYTYPECHECK {OFF|ON}                     TRU[NCATED]}]
+   DEF[INE] {'&'|c|OFF|ON}                  SHIFT[INOUT] {VIS[IBLE] |
+   DESCRIBE [DEPTH {1|n|ALL}]                 INV[ISIBLE]}
+     [LINENUM {ON|OFF}] [INDENT {ON|OFF}]   SHOW[MODE] {OFF|ON}
+   ECHO {OFF|ON}                            SQLBL[ANKLINES] {ON|OFF}
+   EDITF[ILE] file_name[.ext]               SQLC[ASE] {MIX[ED] |
+   EMB[EDDED] {OFF|ON}                        LO[WER] | UP[PER]}
+   ESC[APE] {\|c|OFF|ON}                    SQLCO[NTINUE] {> | text}
+   FEED[BACK] {6|n|OFF|ON}                  SQLN[UMBER] {OFF|ON}
+   FLAGGER {OFF|ENTRY|INTERMED[IATE]|FULL}  SQLPLUSCOMPAT[IBILITY] {x.y[.z]}
+   FLU[SH] {OFF|ON}                         SQLPRE[FIX] {#|c}
+   HEA[DING] {OFF|ON}                       SQLP[ROMPT] {SQL>|text}
+   HEADS[EP] {||c|OFF|ON}                   SQLT[ERMINATOR]
+   INSTANCE [instance_path|LOCAL]             {;|c|OFF|ON}
+   LIN[ESIZE] {80|n}                        SUF[FIX] {SQL|text}
+   LOBOF[FSET] {n|1}                        TAB {OFF|ON}
+   LOGSOURCE [pathname]                     TERM[OUT] {OFF|ON}
+   LONG {80|n}                              TI[ME] {OFF|ON}
+   LONGC[HUNKSIZE] {80|n}                   TIMI[NG] {OFF|ON}
+   MARK[UP] HTML [ON|OFF]                   TRIM[OUT] {OFF|ON}
+     [HEAD text] [BODY text] [TABLE text]   TRIMS[POOL] {ON|OFF}
+     [ENTMAP {ON|OFF}]                      UND[ERLINE] {-|c|ON|OFF}
+     [SPOOL {ON|OFF}]                       VER[IFY] {OFF|ON}
+     [PRE[FORMAT] {ON|OFF}]                 WRA[P] {OFF|ON}
+
